@@ -505,6 +505,15 @@ img {
   min-width: 28px;
   height: 28px;
   color: #e7e9fc;
+  background-color: #e7e9fc;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
+  border-color: transparent;
+  fill: white;
 }
 .modal-btn-icon {
   stroke: currentColor;
